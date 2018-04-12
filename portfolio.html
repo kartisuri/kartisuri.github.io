@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link  rel="stylesheet" href="css/style.css" >
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<style>
+.pic {
+    text-align: center;
+    position: relative;
+    height: 250px;
+}
+
+.magic {
+  z-index: -1;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 10rem;
+  height: 10rem;
+  background: url("images/myscreen.jpg") 25% 25% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  color:black;
+}
+</style>
+</head>
+
+<body>
+
+<div class="nav-panel">
+  <div class="container" >
+		<div class="menu-info-inline data-left"><i class="fa fa-globe"></i>Singapore</div>
+    <div id="portfolio" class="menu-info-inline data-right" style="background:salmon;"><i class="fa fa-suitcase"></i>Portfolio</a></div>
+		<div id="home"  class="menu-info-inline data-right"><i class="fa fa-home"></i>Home</div>
+  </div>
+</div>
+
+<div class="portfolioitem">
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/zSMJKzlp7mo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <div class="portfoliodetail hiddentag" style="float: left;margin-left: 20px;height: 300px;">
+    <h2>Autonomous Drone</h2>
+    <p>An autonomous drone that can fly on its own if we set way points on the map using dedicated mobile application running on android. It is used to take pictures of large objects and send back the images to mobile station (android application) in real time that is used for 3D scanning. It is integrated with ultrasonic sensors for obstacle detection and indoor navigation. I also developed a custom android application that acts as a mobile station for the drone. Unlike conventional methods like WIFI, Radio Telemetry, this drone can be controlled by 4G LTE networks for extended coverage.</p>
+  </div>
+</div>
+
+<h1 style="color:white;text-align:center;"><b>Other Projects to be updated...</b></h1>
+
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link  rel="stylesheet" href="css/style.css" >
+<link rel="stylesheet" href="css/animate.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<style>
+
+.cvbtn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #c7c7c7;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: yellowgreen;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border-color: transparent;
+}
+
+.cvbtn:hover {
+  background: #4dbf2a;
+  text-decoration: none;
+}
+
+.pic {
+    text-align: center;
+    position: relative;
+    height: 250px;
+}
+
+.magic {
+  z-index: -1;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 10rem;
+  height: 10rem;
+  background: url("images/myscreen.jpg") 25% 25% no-repeat fixed;
+ 
+  background-size: cover;
+  border-radius: 50%;
+  color:black;
+}
+
+#section01 a {
+  padding-top: 70px;
+}
+
+#section01 a span {
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb01 1.5s infinite;
+  animation-delay: 4s;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb01 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb01 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+#section02 a {
+  padding-top: 70px;
+}
+
+#section02 a span {
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  margin-top: 12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb02 1.5s infinite;
+  animation: sdb02 1.5s infinite;
+  animation-delay: 4s;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb02 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb02 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+#section03 a {
+  padding-top: 70px;
+}
+
+#section03 a span {
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  margin-top: 22px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb03 1.5s infinite;
+  animation: sdb03 1.5s infinite;
+  animation-delay: 4s;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb03 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb03 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.educationbox{
+margin-bottom: 100px;
+}
+
+.scrolldown{
+	position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="nav-panel">
+  <div class="container" >
+		<div class="menu-info-inline data-left"><i class="fa fa-globe"></i>Singapore</div>
+      <div id="portfolio" class="menu-info-inline data-right"><i class="fa fa-suitcase"></i>Portfolio</div>
+	  <div class="menu-info-inline data-right" style="background:salmon;"><i class="fa fa-home"></i>Home</div>
+  </div>
+</div>
+
+<div style="margin-top: 20px;text-align: center;min-width: 400px;height: 700px;">
+	<div class= "descriptionbox">
+		<img src="images/mypic.png" class="profilepic"/>
+		<p class="namebox">Karthik Thirugnana Suriyan
+			<ul class="designationtag">
+				<li class="tag one">#Full Stack Developer</li>
+				<li class="tag two">#Research Assistant</li>
+				<li class="tag three">#Python Developer</li>
+			</ul>
+		</p>
+		<a href="data/Karthik_Resume.pdf" class="textappearsync invisible"" download><button type="button" class="cvbtn">Download Resume</button></a>
+		<section id="section01" class="demo scroller">
+			<a href="#section01"><span></span></a>
+		</section>
+		<section id="section02" class="demo scroller">
+			<a href="#section02"><span></span></a>
+		</section>
+		<section id="section03" class="demo scroller">
+  		<a href="#section03"><span></span></a>
+		</section>
+		<h3 style="color: white; margin-top: 100px;" class="textappearsync invisible">Scroll Down to know more about me</h3>
+	</div>
+	<div class="contactbox">
+   	<h2 style="margin-bottom:10px;">Quick References</h2>
+    <ul id="contact" class="contact">               
+      <li class="mobile"><i class="fa fa-mobile"></i><a href="#" style="cursor:text;">+65 82002942</a></li>     	
+      <li class="mail"><i class="fa fa-envelope"></i><a href="mailto:kartisuri@gmail.com">kartisuri@gmail.com</a></li>
+      <li class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/karthik-thirugnana-suriyan-94470a103/">https://www.linkedin.com/in/karthik-thirugnana-suriyan-94470a103/</a></li>
+			<li class="skype"><i class="fa fa-skype" aria-hidden="true"></i><a href="#">karti suri</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="experiencebox">
+	<h2 style="color:white;text-align:center;">Experience</h2>
+	<div class="timeline">
+  	<div class="timelinecontainer timelineleft experiencecontainer1 invisible">
+    	<div class="timelinecontent">
+      	<h3>Junior Research Assistant (Part-Time)</h3>
+	  		<h3>Singapore ETH Centre</h3>
+	  		<h3>CREATE, NUS, Singapore</h3>
+	  		<h3>Oct 2017 - Present</h3>
+    	</div>
+  	</div>
+  	<div class="timelinecontainer timelineright experiencecontainer2 invisible">
+    	<div class="timelinecontent">
+      	<h3>Full Stack Developer Intern</h3>
+	  		<h3>Temasek Polytechnic</h3>
+	  		<h3>Singapore</h3>
+      	<h3>August 2017 - March 2018</h3>
+    	</div>
+  	</div>
+  	<div class="timelinecontainer timelineleft experiencecontainer3 invisible">
+    	<div class="timelinecontent">
+      	<h3>Project Engineer</h3>
+	  		<h3>Wipro Technologies Limited</h3>
+	  		<h3>Chennai, India</h3>
+      	<h3>December 2014 - July 2016</h3>
+    	</div>
+  	</div>
+	</div>
+</div>
+
+<div class="educationbox">
+	<h2 style="color:white;text-align:center;">Education</h2>
+	<div class="timeline">
+  	<div class="timelinecontainer timelineright  educationcontainer1 invisible">
+    	<div class="timelinecontent">
+      	<h3>M. Tech. Software Engineering</h3>
+      	<h3>Institute of Systems Science</h3>
+	  		<h3>National University of Singapore</h3>
+	  		<h3>Singapore</h3>
+      	<h3>Jan 2017 - Present</h3>
+    	</div>
+  	</div>
+  	<div class="timelinecontainer timelineleft educationcontainer2 invisible">
+    	<div class="timelinecontent">
+      	<h3>B. E. Electronics and Instrumentation</h3>
+	  		<h3>Sri Sai Ram Engineering College</h3>
+	  		<h3>Anna University</h3>
+	  		<h3>Chennai, India</h3>
+      	<h3>Aug 2010 - May 2014</h3>
+    	</div>
+  	</div>
+  	<div class="timelinecontainer timelineright educationcontainer3 invisible">
+    	<div class="timelinecontent">
+      	<h3>Secondary School Education</h3>
+	  		<h3>St. Joseph's Matriculation Higher Secondary School</h3>
+	  		<h3>Chennai, India</h3>
+	  		<h3>June 2008 - May 2010</h3>
+    	</div>
+  	</div>
+	</div>
+</div>
+
+<div class="skillsbox" style="width: 100%;background-color: white;opacity: 0.6;text-align:center;height:100%">
+	<h2 style="color:white;text-align:center">Technical Skills</h2>
+	<img class="skill1 invisible" width="200" height="200" src="images/python.png"/>
+	<img class="skill1 invisible" width="200" height="200" src="images/csharp.png"/>
+	<img class="skill1 invisible" width="200" height="200" src="images/asp.png"/>
+	<img class="skill1 invisible" width="200" height="200" src="images/android.png"/>
+	<img class="skill1 invisible" width="200" height="200" src="images/html_css_js.png"/>
+	<img class="skill1 invisible" width="200" height="200" src="images/java.png"/>	
+	<img class="skill1 invisible" width="200" height="200" src="images/nodejs.png"/>
+	<img class="skill2 invisible" width="200" height="200" src="images/agile.png"/>
+	<img class="skill2 invisible" width="200" height="200" src="images/arduino.png"/>
+	<img class="skill2 invisible" width="200" height="200" src="images/firebase.png"/>
+	<img class="skill2 invisible" width="200" height="200" src="images/mysql.png"/>
+	<img class="skill2 invisible" width="200" height="200" src="images/pi.png"/>
+	<img class="skill3 invisible" width="200" height="200" src="images/redis.png"/>
+	<img class="skill3 invisible" width="200" height="200" src="images/shell.png"/>	
+	<img class="skill3 invisible" width="200" height="200" src="images/specflow.png"/>	
+	<img class="skill3 invisible" width="200" height="200" src="images/sqlserver.png"/>	
+	<img class="skill3 invisible" width="200" height="200" src="images/tf.png"/>	
+	<img class="skill3 invisible" width="200" height="200" src="images/wxpython.png"/>
+</div>
+
+</body>
+
+</html>
